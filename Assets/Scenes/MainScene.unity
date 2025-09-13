@@ -1934,7 +1934,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 420, y: 199.66}
+  m_AnchoredPosition: {x: 460.54, y: 198.66}
   m_SizeDelta: {x: 300.9173, y: 215.6796}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298495969
@@ -2224,10 +2224,10 @@ MonoBehaviour:
   ResourcesText: {fileID: 0}
   PesantCount: 3
   WheatCount: 0
-  WarriorsCount: 0
-  WheatPerPeasant: 5
-  WheatToWarriors: 2
-  PesantCost: 0
+  WarriorsCount: 10
+  WheatPerPeasant: 2
+  WheatToWarriors: 5
+  PesantCost: 4
   WarriorsCost: 8
   PeacantCreateTime: 5
   WarriorCreateTime: 5

@@ -29,7 +29,7 @@ public class savethevillage : MonoBehaviour
     private float WarriorTimer = -2;
     void Start()
     {
-
+        UpdateText();
     }
     void Update()
     {
