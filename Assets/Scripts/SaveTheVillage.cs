@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class savethevillage : MonoBehaviour
@@ -14,6 +16,7 @@ public class savethevillage : MonoBehaviour
     public Button PeasantButton;
     public Button WarriorButton;
     public TMP_Text ResourcesText;
+    public TMP_Text EnemiesNumber;
     public int PeasantCount;
     public int WheatCount;
     public int WarriorsCount;
@@ -29,12 +32,33 @@ public class savethevillage : MonoBehaviour
     private float PeasantTimer = -2;
     private float WarriorTimer = -2;
     private float RaidTimer;
+    public GameObject GameOverScreen;
+    public Button RestartIfLost;
+    public Button RestartIfWin;
+    public GameObject YOUWIN;
     void Start()
     {
         UpdateText();
+        Time.timeScale = 1;
+        RaidTimer = RaidMaxTime;
+
     }
+
     void Update()
     {
+        if (PeasantCount >= 20 || WarriorsCount >= 20)
+        {
+            Time.timeScale = 0;
+            YOUWIN.SetActive(true);
+        }
+        RaidTimer -= Time.deltaTime;
+        RaidTimerImg.fillAmount = RaidTimer / RaidMaxTime;
+        if (RaidTimer <= 0)
+        {
+            RaidTimer = RaidMaxTime;
+            WarriorsCount -= NextRaid;
+            NextRaid += RaidIncrease;
+        }
         if (HarvestTimer.Tick)
         {
             WheatCount += PeasantCount * WheatPerPeasant;
@@ -50,12 +74,40 @@ public class savethevillage : MonoBehaviour
         }
         else if (PeasantTimer > -1)
         {
+            PeasantTimerImg.fillAmount = 1;
             PeasantButton.interactable = true;
             PeasantCount += 1;
             PeasantTimer = -2;
         }
+        if (WarriorTimer > 0)
+        {
+            WarriorTimer -= Time.deltaTime;
+            WarriorTimerImg.fillAmount = WarriorTimer / WarriorCreateTime;
+        }
+        else if (WarriorTimer > -1)
+        {
+            WarriorTimerImg.fillAmount = 1;
+            WarriorButton.interactable = true;
+            WarriorsCount += 1;
+            WarriorTimer = -2;
+        }
+        if (WheatCount <= 0)
+        {
+            PeasantButton.interactable = false;
+            WarriorButton.interactable = false;
+        }
+        if (WheatCount > 0)
+        {
+            WarriorButton.interactable = true;
+            PeasantButton.interactable = true;
+        }
 
         UpdateText();
+        if (WarriorsCount < 0)
+        {
+            Time.timeScale = 0;
+            GameOverScreen.SetActive(true);
+        }
     }
     public void PeacantCreate()
     {
@@ -71,7 +123,12 @@ public class savethevillage : MonoBehaviour
     }
     private void UpdateText()
     {
-        ResourcesText.text = PeasantCount + "\n" + WarriorsCount + "\n\n" + WheatCount;
+        ResourcesText.text = PeasantCount + "\n" + WarriorsCount + "\n\n" + WheatCount + "\n" + NextRaid;
+
+    }
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(0);
 
     }
 
