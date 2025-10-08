@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
-public class Runner : MonoBehaviour
+public class Runner2 : MonoBehaviour
 {
     public Transform point1;
     public Transform point2;
     public Transform point3;
     public Transform point4;
     public Transform point5;
+    public Transform point6;
+    public Transform point7;
     public float Speed;
     public bool Go;
     private Vector3 target;
@@ -27,26 +28,7 @@ public class Runner : MonoBehaviour
         }
         if(transform.position == target)
         {
-            if(target == point1.position)
-            {
-                target = point2.position;
-            }
-            else if(target == point2.position)
-            {
-                target = point3.position;
-            }
-            else if(target == point3.position)
-            {
-                target = point4.position;
-            }
-            else if(target == point4.position)
-            {
-                target = point5.position;
-            }
-            else if(target == point5.position)
-            {
-                target = point1.position;
-            }
+            
         }
     }
 }
