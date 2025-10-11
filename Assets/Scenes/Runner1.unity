@@ -473,7 +473,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8c37632d3a1548d4e9417a6c07b9e76b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -578,7 +578,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8c37632d3a1548d4e9417a6c07b9e76b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -738,16 +738,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1683942925}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97b1ad44258c0684e9184ebd82501150, type: 3}
+  m_Script: {fileID: 11500000, guid: faae1c352d805c348a418d5e7951cf88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  point1: {fileID: 202092010}
-  point2: {fileID: 1706472045}
-  point3: {fileID: 1547815142}
-  point4: {fileID: 1538913314}
-  point5: {fileID: 1732315814}
-  Speed: 4
-  Go: 1
+  pointIndex: 0
+  pointList:
+  - {fileID: 202092010}
+  - {fileID: 1706472045}
+  - {fileID: 1547815142}
+  - {fileID: 1538913314}
+  - {fileID: 1732315814}
+  runnersIndex: 0
+  runnersList: []
 --- !u!1 &1706472044
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,7 +825,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8c37632d3a1548d4e9417a6c07b9e76b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -913,7 +915,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8c37632d3a1548d4e9417a6c07b9e76b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -964,9 +966,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 1287545021}
   - {fileID: 336336283}
+  - {fileID: 1683942926}
   - {fileID: 202092010}
   - {fileID: 1706472045}
-  - {fileID: 1683942926}
   - {fileID: 1547815142}
   - {fileID: 1538913314}
   - {fileID: 1732315814}
