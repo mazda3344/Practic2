@@ -8,14 +8,14 @@ public class Runner2_1 : MonoBehaviour
     public int runnersIndex;
     public Transform currentRunner;
     public Transform nextRunner;
-    public float speed = 12f;
+    public float speed = 25f;
     void Start()
     {
-        
+
         if (runnersIndex >= 0 && runnersIndex < runnersList.Count)
         {
             currentRunner = runnersList[runnersIndex];
-            nextRunner = runnersList[runnersIndex+1];
+            nextRunner = runnersList[runnersIndex + 1];
         }
         else
         {
@@ -25,6 +25,7 @@ public class Runner2_1 : MonoBehaviour
     }
     void Update()
     {
+        currentRunner.LookAt(nextRunner);
         if (currentRunner.position == nextRunner.position)
         {
             runnersIndex++;
