@@ -1,17 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class Runner2_1 : MonoBehaviour
 {
-    public List<Transform> runnersList;
+    public List<Runner> runnersList;
+    // public List<Transform> runnersList;
     public int runnersIndex;
-    public Transform currentRunner;
-    public Transform nextRunner;
+    public Runner currentRunner;
+    // public Transform currentRunner;
+    public Runner nextRunner;
+    // public Transform nextRunner;
     public float speed = 25f;
+    public GameObject fakel;
     void Start()
     {
-
         if (runnersIndex >= 0 && runnersIndex < runnersList.Count)
         {
             currentRunner = runnersList[runnersIndex];
@@ -22,11 +26,14 @@ public class Runner2_1 : MonoBehaviour
             currentRunner = runnersList[0];
             nextRunner = runnersList[1];
         }
+        fakel.transform.SetParent(currentRunner.wrist);
+        fakel.transform.SetLocalPositionAndRotation(Vector3.zero, Quaternion.identity);
     }
+
     void Update()
     {
-        currentRunner.LookAt(nextRunner);
-        if (currentRunner.position == nextRunner.position)
+        currentRunner.transform.LookAt(nextRunner.transform);
+        if (currentRunner.transform.position == nextRunner.transform.position)
         {
             runnersIndex++;
             if (runnersIndex >= runnersList.Count)
@@ -35,7 +42,9 @@ public class Runner2_1 : MonoBehaviour
             }
             currentRunner = nextRunner;
             nextRunner = runnersList[runnersIndex];
+            fakel.transform.SetParent(currentRunner.wrist);
+            fakel.transform.SetLocalPositionAndRotation(Vector3.zero, Quaternion.identity);
         }
-        currentRunner.position = Vector3.MoveTowards(currentRunner.position, nextRunner.position, Time.deltaTime * speed);
+        currentRunner.transform.position = Vector3.MoveTowards(currentRunner.transform.position, nextRunner.transform.position, Time.deltaTime * speed);
     }
 }
