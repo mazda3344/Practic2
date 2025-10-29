@@ -16,14 +16,14 @@ public class SuperMan : MonoBehaviour
     {
         // Debug.Log("SuperMan::OnCollisionEnter(); -1- collision.gameObject:" + collision.gameObject);
         // Debug.Log("SuperMan::OnCollisionEnter(); -2- collision.gameObject.tag:" + collision.gameObject.tag);
-        // Debug.Log("SuperMan::OnCollisionEnter(); -3- tagBadGuy:" + tagBadGuy);
+        Debug.Log("SuperMan::OnCollisionEnter(); -3- tagBadGuy:" + tagBadGuy);
         // Debug.Log("SuperMan::OnCollisionEnter(); -4- collision.gameObject.layer:" + collision.gameObject.layer);
         // Debug.Log("SuperMan::OnCollisionEnter(); -5- layerBadGuy.value:" + layerBadGuy);
         if (collision.gameObject.tag == tagBadGuy)
         {
             Debug.Log("BadGuy detected by Tag");
         }
-        // if (collision.gameObject.layer == layerBadGuy)
+        // if (collision.gameObject.tag == tagBadGuy)
         // {
         //     Debug.Log("BadGuy detected by Layer");
         // }
@@ -31,6 +31,6 @@ public class SuperMan : MonoBehaviour
     
     private void OnCollisionExit(Collision collision)
     {
-        
+        Debug.Log("lost:(");
     }
 }

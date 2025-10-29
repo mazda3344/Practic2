@@ -5985,7 +5985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagBadGuy: BadGuy
-  layerBadGuy: 128
+  layerBadGuy: 7
 --- !u!114 &516457385
 MonoBehaviour:
   m_ObjectHideFlags: 0
