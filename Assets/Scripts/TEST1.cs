@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class TEST1 : MonoBehaviour
 {
-    private void start()
+    private void Start()
     {
-        GetComponent<Rigidbody>().AddForce(0, 0, 10000);
+        GetComponent<Rigidbody>().AddForce(0, 0, 100, ForceMode.Impulse);
     }
     // private void Start()
     // {
