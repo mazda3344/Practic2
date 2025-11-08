@@ -13,10 +13,6 @@ public class SuperMan : MonoBehaviour
     //     tagBadGuy = "BadGuy";
     //     layerBadGuy = LayerMask.GetMask("BadGuy");
     // }
-    private void Start()
-    {
-        GetComponent<Rigidbody>().AddForce(0, 0, 100, ForceMode.Impulse);
-    }
     private void OnCollisionEnter(Collision collision)
     {
         // Debug.Log("SuperMan::OnCollisionEnter(); -1- collision.gameObject:" + collision.gameObject);
