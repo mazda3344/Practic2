@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class SuperMan : MonoBehaviour
 {
+    public float TimeToBoom;
+    public float Power;
+    public float Radius;
     public string tagBadGuy = "BadGuy";
     // public int layerBadGuy = LayerMask.GetMask("BadGuy");
 
@@ -23,13 +26,32 @@ public class SuperMan : MonoBehaviour
         if (collision.gameObject.tag == tagBadGuy)
         {
             Debug.Log("BadGuy detected by Tag");
+
+            if (TimeToBoom <= 0)
+            {
+                Boom();
+
+            }
         }
         // if (collision.gameObject.tag == tagBadGuy)
         // {
         //     Debug.Log("BadGuy detected by Layer");
         // }
     }
-    
+    private void Boom()
+    {
+        Rigidbody[] blocks = FindObjectsOfType<Rigidbody>();
+        
+        foreach (Rigidbody B in blocks)
+        {
+            if (Vector3.Distance(transform.position, B.transform.position) < Radius)
+            {
+                Vector3 direcetion = B.transform.position - transform.position;
+                B.AddForce(direcetion.normalized * Power * (Radius - Vector3.Distance(transform.position, B.transform.position)));
+            }
+            TimeToBoom = 0;
+        }
+    }
     private void OnCollisionExit(Collision collision)
     {
         Debug.Log("lost...");
