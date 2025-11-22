@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TEST1 : MonoBehaviour
+public class billiard : MonoBehaviour
 {
     private void Start()
     {
