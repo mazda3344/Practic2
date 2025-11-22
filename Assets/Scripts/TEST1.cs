@@ -4,8 +4,16 @@ using UnityEngine;
 
 public class TEST1 : MonoBehaviour
 {
-    private void Start()
+    public string ungravity = "ungravity";
+    private void OnCollisionEnter(Collision collision)
     {
-        GetComponent<Rigidbody>().AddForce (0, 0, 9990, ForceMode.Force);
+        if (collision.gameObject.tag == ungravity)
+        {
+            GetComponent<Rigidbody>().useGravity = false;
+        }
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        GetComponent<Rigidbody>().useGravity = true;
     }
 }
