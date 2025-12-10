@@ -7,11 +7,11 @@ public class lost : MonoBehaviour
     public string tagBadGuy = "BadGuy"; 
     public GameObject HameOverScreen;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collider)
     {
-        if (collision.gameObject.tag == tagBadGuy)
+        if (collider.gameObject.tag == tagBadGuy)
         {
-            Debug.Log("BadGuy detected by Tag");
+            Debug.Log("lost");
             HameOverScreen.SetActive(true);
         }
     }
