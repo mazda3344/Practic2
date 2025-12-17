@@ -31,7 +31,7 @@ public class bomb : MonoBehaviour
                 Vector3 direcetion = B.transform.position - transform.position;
                 B.AddForce(direcetion.normalized * Power * (Radius - Vector3.Distance(transform.position, B.transform.position)));
             }
-            TimeToBoom = 5;
+            TimeToBoom = 0;
         }
     }
     

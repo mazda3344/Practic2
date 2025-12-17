@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class LostScreenGame : MonoBehaviour
 {
+    
     public Button RestartIfLost;
     public void RestartGamy()
     {
