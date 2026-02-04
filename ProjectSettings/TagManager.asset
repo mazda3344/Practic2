@@ -8,6 +8,7 @@ TagManager:
   - ungravity
   - Lost
   - Death tregger
+  - Ground
   layers:
   - Default
   - TransparentFX
