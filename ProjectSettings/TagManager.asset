@@ -9,6 +9,8 @@ TagManager:
   - Lost
   - Death tregger
   - Ground
+  - Next1
+  - Door
   layers:
   - Default
   - TransparentFX
