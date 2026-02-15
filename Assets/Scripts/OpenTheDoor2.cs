@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.TextCore;
 
-[RequireComponent(typeof(Animator))]
-public class OpenTheDoor : MonoBehaviour
+public class OpenTheDoor2 : MonoBehaviour
 {
     public Animator animator;
     

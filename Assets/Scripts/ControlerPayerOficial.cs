@@ -7,7 +7,7 @@ namespace WildBall.Inputs
     [RequireComponent(typeof(Rigidbody))]
     public class ControlerPayerOficial : MonoBehaviour
     {
-        [SerializeField, Range(0, 10)] private float speed = 2.0f;
+        [SerializeField, Range(0, 20)] private float speed = 15.0f;
         private Rigidbody playerRigidbody;
         private Vector3 movement;
         
@@ -37,7 +37,7 @@ namespace WildBall.Inputs
         [ContextMenu("Reset values")]
         public void ResetValues()
         {
-            speed = 2;
+            speed = 15;
         }
     }
 #endif
