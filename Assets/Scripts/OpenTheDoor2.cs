@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.TextCore;
 
 public class OpenTheDoor2 : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class OpenTheDoor2 : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            animator.SetTrigger("ToOpen");
+            animator.SetTrigger("Open2");
         }
     }
 }

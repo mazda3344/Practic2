@@ -18314,7 +18314,7 @@ Transform:
   m_GameObject: {fileID: 1870945217}
   serializedVersion: 2
   m_LocalRotation: {x: 0.48225343, y: 0.054702148, z: 0.5888531, w: -0.6462904}
-  m_LocalPosition: {x: 2.0910037, y: -2.5299993, z: 0.022018194}
+  m_LocalPosition: {x: 2.0910037, y: -2.17, z: 0.022018194}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20357,7 +20357,7 @@ Transform:
   m_GameObject: {fileID: 2061328900}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -86.29, y: 6.0569997, z: -2.6220093}
+  m_LocalPosition: {x: -86.07, y: 5.62, z: -2.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20434,7 +20434,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  OpenDoor: {fileID: 0}
 --- !u!1 &2102088706
 GameObject:
   m_ObjectHideFlags: 0
@@ -21136,7 +21135,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 915058303060229649, guid: 107553035e58b86458ae499add82bd5c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.8
+      value: -68.07
       objectReference: {fileID: 0}
     - target: {fileID: 915058303060229649, guid: 107553035e58b86458ae499add82bd5c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21144,7 +21143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 915058303060229649, guid: 107553035e58b86458ae499add82bd5c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.73
+      value: -0.7
       objectReference: {fileID: 0}
     - target: {fileID: 915058303060229649, guid: 107553035e58b86458ae499add82bd5c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21174,10 +21173,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606527824169940466, guid: 107553035e58b86458ae499add82bd5c, type: 3}
+      propertyPath: m_Mass
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3374122470273642092, guid: 107553035e58b86458ae499add82bd5c, type: 3}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3907190140236388262, guid: 107553035e58b86458ae499add82bd5c, type: 3}
       propertyPath: imageObject
       value: 
       objectReference: {fileID: 964942582}
+    - target: {fileID: 4648151171425589326, guid: 107553035e58b86458ae499add82bd5c, type: 3}
+      propertyPath: jumpForce
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6614331444015603996, guid: 107553035e58b86458ae499add82bd5c, type: 3}
       propertyPath: m_Name
       value: Stone
