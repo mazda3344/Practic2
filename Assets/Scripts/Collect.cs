@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class Collect : MonoBehaviour
 {
-    private Animator anim;
+    private Animator animator;
+    public float destroyDelay = 2.0f;
 
-    private void Awake()
+    void Start()
     {
-        anim = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
-    private void OiggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        anim.SetBool("Alive", false);
-        anim.SetTrigger("collect");
-    }
-    public void DestroySomething()
-    {
-        Destroy(FindObjectOfType<MeshFilter>().gameObject);
+        if (other.CompareTag("Player")) 
+        {
+            animator.SetTrigger("Collect");
+            Destroy(gameObject, destroyDelay); 
+        }
     }
 }
