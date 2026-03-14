@@ -12,6 +12,7 @@ TagManager:
   - Next1
   - Door
   - Next2
+  - Next3
   layers:
   - Default
   - TransparentFX
