@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 public class Collect : MonoBehaviour
 {
     private Animator animator;
     public float destroyDelay = 2.0f;
+    public GameObject Effect;
 
     void Start()
     {
@@ -18,6 +20,7 @@ public class Collect : MonoBehaviour
         {
             animator.SetTrigger("Collect");
             Destroy(gameObject, destroyDelay); 
+            Destroy(Effect, destroyDelay);
         }
     }
 }

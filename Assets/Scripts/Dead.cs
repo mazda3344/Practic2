@@ -6,14 +6,20 @@ using UnityEngine.SceneManagement;
 
 public class Dead : MonoBehaviour
 {
-    
+    public GameObject Effective;
+    public GameObject Blood;
     private void OnCollisionEnter(Collision collision)
     {
-        // Проверка тега объекта, с которым произошло столкновение
         if (collision.gameObject.CompareTag("Death tregger"))
         {
-            // Перезагрузка активной сцены
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Blood.SetActive(true);
+            Effective.SetActive(true);
+            Invoke(nameof(RestartScene), 0.6f);
         }
+    }
+
+    private void RestartScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
