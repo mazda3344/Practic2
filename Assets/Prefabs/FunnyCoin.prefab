@@ -671,3 +671,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyDelay: 2
+  Effect: {fileID: 0}
