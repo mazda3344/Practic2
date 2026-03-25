@@ -9,7 +9,7 @@ public class NextLevel2 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Next2"))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
     }
 }
