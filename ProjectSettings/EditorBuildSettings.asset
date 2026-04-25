@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WillBall/Level4.unity
     guid: 83f085c6155bf2b4d8ef0dd5611dd248
+  - enabled: 1
+    path: Assets/Scenes/WillBall/Level5.unity
+    guid: c2d50cdcf5fdd2b4b97269d378c174f9
   m_configObjects: {}
