@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.ProBuilder.Shapes;
 
 public class Spawnrandom : MonoBehaviour
 {
@@ -15,6 +16,6 @@ public class Spawnrandom : MonoBehaviour
 
     void SpawnObject()
     {
-        Instantiate(itemPrefab, transform.position, Quaternion.identity);
+        Instantiate(itemPrefab, transform.position, transform.rotation);
     }
 }
