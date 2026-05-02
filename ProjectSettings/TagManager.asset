@@ -15,11 +15,13 @@ TagManager:
   - Next3
   - Next3_13
   - Next4
+  - Destroy
+  - F
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - kill
   - Water
   - UI
   - SuperMan
@@ -29,7 +31,7 @@ TagManager:
   - DoorHandle
   - Ball
   - lost
-  - 
+  - Player
   - 
   - 
   - 
