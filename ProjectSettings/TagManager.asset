@@ -12,11 +12,22 @@ TagManager:
   - Next1
   - Door
   - Next2
+<<<<<<< HEAD
+=======
+  - Next3
+  - Next3_13
+  - Next4
+  - Destroy
+  - F
+  - Next 5
+  - CinemachineTarget
+  - Next6
+>>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - kill
   - Water
   - UI
   - SuperMan
@@ -26,7 +37,7 @@ TagManager:
   - DoorHandle
   - Ball
   - lost
-  - 
+  - Player
   - 
   - 
   - 

@@ -39,6 +39,6 @@ namespace WildBall.Inputs
         {
             speed = 15;
         }
-    }
 #endif
+    }
 }
