@@ -1,23 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;  
 
 public class Collect : MonoBehaviour
 {
-    private Animator anim;
+    private Animator animator;
+    public GameObject Cay;
+    public TextMeshProUGUI Coin;
+    private int score = 0;
 
-    private void Awake()
+
+    void Start()
     {
-        anim = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
-    private void OiggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        anim.SetBool("Alive", false);
-        anim.SetTrigger("collect");
+        if (other.CompareTag("Player"))
+        {
+            animator.SetTrigger("Collect");
+            Destroy (Cay, 0.3f );
+        }
     }
-    public void DestroySomething()
-    {
-        Destroy(FindObjectOfType<MeshFilter>().gameObject);
-    }
+
 }
