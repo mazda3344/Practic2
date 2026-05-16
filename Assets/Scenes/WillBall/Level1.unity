@@ -1849,11 +1849,7 @@ Transform:
   m_GameObject: {fileID: 181232583}
   serializedVersion: 2
   m_LocalRotation: {x: -0.34579125, y: 0.3860879, z: 0.8258, w: -0.22230358}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_LocalPosition: {x: -25.11, y: -7.420421, z: 12.206}
-=======
   m_LocalPosition: {x: -25.11, y: -7.420421, z: 12.226}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1871,12 +1867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!136 &181232586
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1997,12 +1989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!135 &185688445
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2074,11 +2062,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185688442}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
---- !u!1 &190296101
-=======
 --- !u!1 &191966361
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2086,50 +2070,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  - component: {fileID: 190296102}
-  - component: {fileID: 190296106}
-  - component: {fileID: 190296105}
-  - component: {fileID: 190296104}
-  - component: {fileID: 190296103}
-  m_Layer: 0
-  m_Name: Cube_147
-  m_TagString: Death tregger
-=======
   - component: {fileID: 191966362}
   - component: {fileID: 191966364}
   - component: {fileID: 191966363}
   m_Layer: 5
   m_Name: Text (TMP)_1
   m_TagString: Untagged
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
---- !u!4 &190296102
-Transform:
-=======
 --- !u!224 &191966362
 RectTransform:
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_GameObject: {fileID: 190296101}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.45297855, y: 0.40094382, z: 0.72008365, w: 0.33990315}
-  m_LocalPosition: {x: -16.52, y: -7.23, z: 10.15}
-  m_LocalScale: {x: 1.2265828, y: 1.2265828, z: 1.2265828}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 773972354}
-  m_LocalEulerAnglesHint: {x: 195.634, y: -106.16501, z: -62.315002}
---- !u!114 &190296103
-=======
   m_GameObject: {fileID: 191966361}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2144,44 +2100,11 @@ RectTransform:
   m_SizeDelta: {x: 152.8272, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &191966363
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_GameObject: {fileID: 190296101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Coin: {fileID: 0}
---- !u!65 &190296104
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190296101}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &190296105
-MeshRenderer:
-=======
   m_GameObject: {fileID: 191966361}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2267,60 +2190,12 @@ MeshRenderer:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &191966364
 CanvasRenderer:
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_GameObject: {fileID: 190296101}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 0694d17fc4dd29643b63edbe1c8c01cc, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &190296106
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190296101}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-=======
   m_GameObject: {fileID: 191966361}
   m_CullTransparentMesh: 1
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &208336215
 GameObject:
   m_ObjectHideFlags: 0
@@ -2544,9 +2419,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
   Effective: {fileID: 0}
   Blood: {fileID: 0}
 --- !u!1 &227665298
@@ -7471,7 +7343,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -632.091, y: -41.309, z: -227.481}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &244041557
 GameObject:
   m_ObjectHideFlags: 0
@@ -14330,12 +14201,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &397533911
 GameObject:
   m_ObjectHideFlags: 0
@@ -14487,13 +14354,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!65 &410109284
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14789,13 +14652,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &423256294
 GameObject:
   m_ObjectHideFlags: 0
@@ -15018,13 +14877,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &439163360
 GameObject:
   m_ObjectHideFlags: 0
@@ -15581,13 +15436,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &518502787
 GameObject:
   m_ObjectHideFlags: 0
@@ -15705,13 +15556,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &518549077
 GameObject:
   m_ObjectHideFlags: 0
@@ -15934,13 +15781,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &522251975
 GameObject:
   m_ObjectHideFlags: 0
@@ -16163,13 +16006,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &533203485
 GameObject:
   m_ObjectHideFlags: 0
@@ -16289,13 +16128,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &561580260
 GameObject:
   m_ObjectHideFlags: 0
@@ -16728,13 +16563,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &599641917
 GameObject:
   m_ObjectHideFlags: 0
@@ -17065,213 +16896,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
---- !u!1 &631851052
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 631851053}
-  - component: {fileID: 631851057}
-  - component: {fileID: 631851056}
-  - component: {fileID: 631851055}
-  - component: {fileID: 631851054}
-  m_Layer: 0
-  m_Name: Sphere_20
-  m_TagString: Death tregger
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &631851053
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631851052}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.672, y: -7.34, z: -8.082001}
-  m_LocalScale: {x: 1.7248, y: 1.7248, z: 1.7248}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 773972354}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &631851054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631851052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Coin: {fileID: 0}
---- !u!135 &631851055
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631851052}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &631851056
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631851052}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 2aa8bfff3edd31b48bfce0cc00bd6e18, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &631851057
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631851052}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &644864149
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7362223
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.048022434
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.7367244
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 61.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 84.524
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 7086555448055588427, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: m_Name
-      value: FunnyCoin_2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7376652658276394043, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: Cay
-      value: 
-      objectReference: {fileID: 644864150}
-    - target: {fileID: 7376652658276394043, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-      propertyPath: Coin
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
---- !u!1 &644864150 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7086555448055588427, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
-  m_PrefabInstance: {fileID: 644864149}
-  m_PrefabAsset: {fileID: 0}
-=======
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &647982484
 GameObject:
   m_ObjectHideFlags: 0
@@ -17495,12 +17121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &663969333
 GameObject:
   m_ObjectHideFlags: 0
@@ -17621,12 +17243,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
-  Effective: {fileID: 0}
+ Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &670219878
 GameObject:
   m_ObjectHideFlags: 0
@@ -19255,12 +18873,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &819126362
 GameObject:
   m_ObjectHideFlags: 0
@@ -19588,13 +19202,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &876220301
 GameObject:
   m_ObjectHideFlags: 0
@@ -20146,13 +19756,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &910550614
 GameObject:
   m_ObjectHideFlags: 0
@@ -20377,13 +19983,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &914869311
 GameObject:
   m_ObjectHideFlags: 0
@@ -20713,13 +20315,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &931384363
 GameObject:
   m_ObjectHideFlags: 0
@@ -21047,13 +20645,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &949435851
 GameObject:
   m_ObjectHideFlags: 0
@@ -21457,13 +21051,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &993608838
 GameObject:
   m_ObjectHideFlags: 0
@@ -26740,13 +26330,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1033579439
 GameObject:
   m_ObjectHideFlags: 0
@@ -28828,13 +28414,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1232531461
 GameObject:
   m_ObjectHideFlags: 0
@@ -29057,13 +28639,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1310504058
 GameObject:
   m_ObjectHideFlags: 0
@@ -29606,13 +29184,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1381856344
 GameObject:
   m_ObjectHideFlags: 0
@@ -30768,11 +30342,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485716916}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
---- !u!1 &1486499500
-=======
 --- !u!1 &1486673037
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30780,16 +30350,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  - component: {fileID: 1486499501}
-  - component: {fileID: 1486499505}
-  - component: {fileID: 1486499504}
-  - component: {fileID: 1486499503}
-  - component: {fileID: 1486499502}
-  m_Layer: 0
-  m_Name: Cube_146
-  m_TagString: Death tregger
-=======
   - component: {fileID: 1486673038}
   - component: {fileID: 1486673041}
   - component: {fileID: 1486673040}
@@ -30797,46 +30357,16 @@ GameObject:
   m_Layer: 0
   m_Name: Cube_89
   m_TagString: Untagged
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
---- !u!4 &1486499501
-=======
 --- !u!4 &1486673038
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_GameObject: {fileID: 1486499500}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.52280134, y: -0.41282213, z: 0.50528204, w: 0.54858625}
-  m_LocalPosition: {x: -40.66, y: -7.25, z: -7.79}
-  m_LocalScale: {x: 1.5745, y: 1.5745, z: 1.5745}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 773972354}
-  m_LocalEulerAnglesHint: {x: -8.999, y: -83.459, z: 93.324}
---- !u!114 &1486499502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486499500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Coin: {fileID: 0}
---- !u!65 &1486499503
-=======
   m_GameObject: {fileID: 1486673037}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7482728, y: -0.2994834, z: 0.2929217, w: 0.5143875}
@@ -30847,17 +30377,12 @@ MonoBehaviour:
   m_Father: {fileID: 773972354}
   m_LocalEulerAnglesHint: {x: -36.467, y: -111.842, z: 111.247}
 --- !u!65 &1486673039
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_GameObject: {fileID: 1486499500}
-=======
   m_GameObject: {fileID: 1486673037}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -30872,21 +30397,13 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
---- !u!23 &1486499504
-=======
 --- !u!23 &1486673040
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_GameObject: {fileID: 1486499500}
-=======
   m_GameObject: {fileID: 1486673037}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -30900,11 +30417,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  - {fileID: 2100000, guid: 2aa8bfff3edd31b48bfce0cc00bd6e18, type: 2}
-=======
   - {fileID: 2100000, guid: 0e8d205aaedd3e94581fe0c14c04fa25, type: 2}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -30926,21 +30439,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
---- !u!33 &1486499505
-=======
 --- !u!33 &1486673041
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_GameObject: {fileID: 1486499500}
-=======
   m_GameObject: {fileID: 1486673037}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1522080491
 GameObject:
@@ -31269,13 +30774,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1527190961
 GameObject:
   m_ObjectHideFlags: 0
@@ -31592,13 +31093,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1534351392
 GameObject:
   m_ObjectHideFlags: 0
@@ -31821,13 +31318,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1560224125
 GameObject:
   m_ObjectHideFlags: 0
@@ -32433,13 +31926,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1611416934
 GameObject:
   m_ObjectHideFlags: 0
@@ -40073,13 +39562,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1840264978
 GameObject:
   m_ObjectHideFlags: 0
@@ -40213,11 +39698,7 @@ Transform:
   m_GameObject: {fileID: 1844687305}
   serializedVersion: 2
   m_LocalRotation: {x: -0.05502456, y: 0.4731642, z: -0.35506806, w: 0.80437213}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_LocalPosition: {x: -67.58, y: -6.882, z: -7.38}
-=======
   m_LocalPosition: {x: -67.011, y: -6.882, z: -7.38}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_LocalScale: {x: 4.1254177, y: 4.1254177, z: 4.1254177}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40411,13 +39892,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1869420181
 GameObject:
   m_ObjectHideFlags: 0
@@ -41119,13 +40596,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904326370}
   serializedVersion: 2
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_LocalRotation: {x: 0.32291543, y: 0.9255794, z: -0.18628214, w: 0.06578256}
-  m_LocalPosition: {x: -61.82, y: -6.03, z: -7.38}
-=======
   m_LocalRotation: {x: 0.41684762, y: 0.77234757, z: -0.35286546, w: -0.32435045}
   m_LocalPosition: {x: -62.61, y: -6.882, z: -8.039}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_LocalScale: {x: 4.1254177, y: 4.1254177, z: 4.1254177}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41634,132 +41106,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
---- !u!1 &1947484728
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1947484729}
-  - component: {fileID: 1947484733}
-  - component: {fileID: 1947484732}
-  - component: {fileID: 1947484731}
-  - component: {fileID: 1947484730}
-  m_Layer: 0
-  m_Name: Cube_148
-  m_TagString: Death tregger
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1947484729
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947484728}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.48158428, y: -0.013806069, z: -0.8745245, w: -0.0556152}
-  m_LocalPosition: {x: -15.01, y: -7.31, z: 1.19}
-  m_LocalScale: {x: 1.8012369, y: 1.8012369, z: 1.8012369}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 773972354}
-  m_LocalEulerAnglesHint: {x: 1.686, y: 57.588, z: -186.351}
---- !u!114 &1947484730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947484728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Coin: {fileID: 0}
---- !u!65 &1947484731
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947484728}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1947484732
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947484728}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 0694d17fc4dd29643b63edbe1c8c01cc, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1947484733
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947484728}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1949471797
 GameObject:
   m_ObjectHideFlags: 0
@@ -42220,13 +41569,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &1978283411
 GameObject:
   m_ObjectHideFlags: 0
@@ -42556,10 +41901,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
 --- !u!1001 &2024985060
@@ -42628,7 +41970,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1623161543228318816, guid: 8db601d8bc43ba0439d5a9c9d9c5f712, type: 3}
   m_PrefabInstance: {fileID: 2024985060}
   m_PrefabAsset: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &2034058211
 GameObject:
   m_ObjectHideFlags: 0
@@ -42762,22 +42103,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051354531}
   serializedVersion: 2
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_LocalRotation: {x: 0.15161453, y: -0.5742459, z: 0.18724795, w: 0.7824275}
-  m_LocalPosition: {x: -25.15, y: -7.45, z: 6.69}
-=======
   m_LocalRotation: {x: 0.28076044, y: -0.58471876, z: 0.19264688, w: 0.7363184}
   m_LocalPosition: {x: -25.97329, y: -7.2500114, z: 8.068496}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
   m_LocalScale: {x: 3.2722833, y: 3.2722833, z: 3.2722833}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773972354}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  m_LocalEulerAnglesHint: {x: 26.892, y: -70.718, z: 7.661}
-=======
   m_LocalEulerAnglesHint: {x: 39.698, y: -78.108, z: -3.326}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!65 &2051354533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42860,13 +42192,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &2051724076
 GameObject:
   m_ObjectHideFlags: 0
@@ -42986,13 +42314,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &2061328900
 GameObject:
   m_ObjectHideFlags: 0
@@ -43888,13 +43212,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc652e78918bac498a2a7814581d057, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  Coin: {fileID: 0}
-=======
+  m_EditorClassIdentifier:
   Effective: {fileID: 0}
   Blood: {fileID: 0}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
 --- !u!1 &2143694251
 GameObject:
   m_ObjectHideFlags: 0
@@ -44175,11 +43495,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 1949471798}
     m_Modifications:
     - target: {fileID: 627752787804132059, guid: 107553035e58b86458ae499add82bd5c, type: 3}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-      propertyPath: Coin
-      value: 
-      objectReference: {fileID: 0}
-=======
       propertyPath: Blood
       value: 
       objectReference: {fileID: 308076610}
@@ -44187,7 +43502,6 @@ PrefabInstance:
       propertyPath: Effective
       value: 
       objectReference: {fileID: 282799052}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
     - target: {fileID: 915058303060229649, guid: 107553035e58b86458ae499add82bd5c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.07
@@ -44356,10 +43670,6 @@ SceneRoots:
   - {fileID: 899411873}
   - {fileID: 1591643025}
   - {fileID: 6391033096161321307}
-<<<<<<< HEAD:Assets/Scenes/Level1.unity
-  - {fileID: 1190751444}
-  - {fileID: 644864149}
-=======
   - {fileID: 2024985060}
   - {fileID: 1098144548}
   - {fileID: 282799056}
@@ -44367,4 +43677,3 @@ SceneRoots:
   - {fileID: 1010366638}
   - {fileID: 240481735}
   - {fileID: 743682205}
->>>>>>> dd9de9c64473e7a76a6005c44416abf768395e3a:Assets/Scenes/WillBall/Level1.unity
