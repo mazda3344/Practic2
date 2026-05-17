@@ -7,7 +7,6 @@ using TMPro;
 
 public class Dead : MonoBehaviour
 {
-    public TextMeshProUGUI Coin;
     public GameObject Effective;
     public GameObject Blood;
     private void OnCollisionEnter(Collision collision)
@@ -17,11 +16,7 @@ public class Dead : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Death tregger"))
         {
-            Coin.text = "0";
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        
-    
-
             Blood.SetActive(true);
             Effective.SetActive(true);
             Invoke(nameof(RestartScene), 0.6f);

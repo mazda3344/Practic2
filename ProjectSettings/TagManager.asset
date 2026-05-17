@@ -21,6 +21,8 @@ TagManager:
   - CinemachineTarget
   - Next6
   - Next7
+  - Next8
+  - Next9
   layers:
   - Default
   - TransparentFX
