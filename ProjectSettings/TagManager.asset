@@ -23,6 +23,7 @@ TagManager:
   - Next7
   - Next8
   - Next9
+  - playyr
   layers:
   - Default
   - TransparentFX
