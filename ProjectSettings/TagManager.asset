@@ -23,7 +23,11 @@ TagManager:
   - Next7
   - Next8
   - Next9
+<<<<<<< HEAD
   - playyr
+=======
+  - Next10
+>>>>>>> 4349638782bc2fb9a97ae981a9bfe54b73308822
   layers:
   - Default
   - TransparentFX
