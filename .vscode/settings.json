@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Practic2.sln"
+    "dotnet.defaultSolution": "practic 2.0.sln"
 }
