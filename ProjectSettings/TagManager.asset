@@ -4,45 +4,35 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - BadGuy
-  - ungravity
-  - Lost
-  - Death tregger
   - Ground
-  - Next1
+  - Death tregger
   - Door
+  - Next1
   - Next2
   - Next3
-  - Next3_13
   - Next4
-  - Destroy
-  - F
+  - Next3_13
   - Next 5
-  - CinemachineTarget
   - Next6
   - Next7
-  - Next8
   - Next9
-<<<<<<< HEAD
-  - playyr
-=======
+  - Next8
   - Next10
->>>>>>> 4349638782bc2fb9a97ae981a9bfe54b73308822
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - kill
+  - 
   - Water
   - UI
-  - SuperMan
-  - BadGuy
-  - GoodBoy
-  - stone
-  - DoorHandle
-  - Ball
-  - lost
-  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
